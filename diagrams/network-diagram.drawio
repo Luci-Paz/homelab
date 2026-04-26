@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="d0oLxI0wsgBwG5Y41Pas">
-    <mxGraphModel dx="2147" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2284" dy="871" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -60,11 +60,14 @@
         <mxCell id="AVDj7N-IXfCIXP_DCLWM-19" parent="1" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.1u_2u_server;" value="" vertex="1">
           <mxGeometry height="39.1" width="100" x="-280" y="700.9" as="geometry" />
         </mxCell>
+        <mxCell id="xv4JPJqO8LhS0EfRIk0W-2" edge="1" parent="1" source="AVDj7N-IXfCIXP_DCLWM-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" target="xv4JPJqO8LhS0EfRIk0W-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="AVDj7N-IXfCIXP_DCLWM-14" parent="1" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="54.00000000000002" width="42.600000000000016" x="550" y="495.8" as="geometry" />
         </mxCell>
-        <mxCell id="AVDj7N-IXfCIXP_DCLWM-34" parent="1" style="whiteSpace=wrap;html=1;perimeterSpacing=0;spacingLeft=8;" value="&lt;div align=&quot;left&quot;&gt;Cortex:&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Used as logical gateway and manager for the rest of the network.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Services:&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- VPN (A)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Pi-Hole || AdGuard (WP)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Network Diagnostics (WP)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="150" width="208.7" x="466.95" y="570" as="geometry" />
+        <mxCell id="AVDj7N-IXfCIXP_DCLWM-34" parent="1" style="whiteSpace=wrap;html=1;perimeterSpacing=0;spacingLeft=8;" value="&lt;div align=&quot;left&quot;&gt;Neuron:&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Used as logical gateway and manager for the rest of the network.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Services:&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- VPN (A)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="208.7" x="610" y="460" as="geometry" />
         </mxCell>
         <mxCell id="AVDj7N-IXfCIXP_DCLWM-37" connectable="0" parent="1" style="group;spacingLeft=5;spacingRight=0;align=left;" value="" vertex="1">
           <mxGeometry height="230" width="230" x="6" y="710" as="geometry" />
@@ -77,6 +80,15 @@
         </mxCell>
         <mxCell id="AVDj7N-IXfCIXP_DCLWM-38" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div align=&quot;left&quot;&gt;Cerebellum:&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Used for testing environments, experimental services and heavy computing.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Services:&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- AI (N)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Testing Environments&lt;/div&gt;" vertex="1">
           <mxGeometry height="140" width="190" x="-325" y="755" as="geometry" />
+        </mxCell>
+        <mxCell id="xv4JPJqO8LhS0EfRIk0W-1" parent="1" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54.00000000000002" width="42.600000000000016" x="550" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="xv4JPJqO8LhS0EfRIk0W-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=5;" value="&lt;div align=&quot;left&quot;&gt;Cortex:&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Used for blocking ads and running service for network diagnostics&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Services:&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- AdGuard || PiHole (N)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Network Diagnostics (WP)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="125" width="208.05" x="467.28" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="xv4JPJqO8LhS0EfRIk0W-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=5;" value="&lt;div align=&quot;left&quot;&gt;Key:&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;WP - Work in progress&lt;/div&gt;&lt;div&gt;N - Not active/started&lt;/div&gt;&lt;div&gt;A - Active&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="160" x="-120" y="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
