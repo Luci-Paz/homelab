@@ -35,17 +35,18 @@ connections and some of the services hosted on each device.
 
 ![diagram of the network](diagrams/network-diagram.png)
 
-My current design has `cortex` as the main entry point into the lab network. To
-connect to `cortex`, a VPN config is required. This is to help limit access to
+My current design has `neuron` as the main entry point into the lab network. To
+connect to `neuron`, a VPN config is required. This is to help limit access to
 verified users and make the creation of custom nftable rules a little easier.
 This access lets me control what accounts people can log into, where they are
-allowed to try to connect to, what services they can access and more. `Cortex`
-will also host an ad blocking service in the future such as PiHole or AdGuard,
-these require more research though and have not yet been implemented.
+allowed to try to connect to, what services they can access and more. 
 
-Once connected to the VPN server on `cortex`, depending on a user's permissions
-they can attempt to access the services on the other two devices (`amygdala` and
-`cerebellum`).
+Once connected to the VPN server on `neuron`, depending on a user's permissions
+they can attempt to access the services on the other devices (`amygdala`, `cerebellum`
+and `cortex`).
+
+`Cortex` will host an ad blocking service in the future such as PiHole or AdGuard,
+these require more research though and have not yet been implemented.
 
 `amygdalla` will be the server that most trusted users will have access to. It will 
 host a storage server, potentially some game servers and maybe a streaming service 
